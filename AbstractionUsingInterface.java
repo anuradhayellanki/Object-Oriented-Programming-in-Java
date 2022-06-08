@@ -1,12 +1,16 @@
+
+/*
+*created abstraction package on 30-may-2022
+*/
 package com.cashapona.oops.abstraction.may30;
 /**
- * @author USER
- *
+ * @author Anuradha
+ * create Vehicle interface, can achieve abstraction using interfaces
  */
 interface Vehicle {
    /*
     * An interface can't contain concrete methods
-    * only have abstract methods.
+    * only have abstract methods
     */
     void changeGear(int a);
     void speedUp(int a);

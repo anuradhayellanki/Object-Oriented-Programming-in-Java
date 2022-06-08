@@ -1,9 +1,6 @@
-
 package com.cashapona.oops.polymorphism.may31;
-
 /**
- * @author USER
- *
+ * @author Anuradha
  */
 class Employee{
 	private String name;

@@ -1,8 +1,6 @@
-
 package com.cashapona.oops.polymorphism.may31;
-
 /**
- * @author USER
+ * @author Anuradha
  * created Addition class
  */
 class Addition{

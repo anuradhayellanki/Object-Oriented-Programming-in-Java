@@ -1,6 +1,6 @@
 package com.cashapona.oops.inheritance.may31;
 /**
- * @author USER
+ * @author Anuradha
  * parent class Bicycle
  */
 class Bicycle {

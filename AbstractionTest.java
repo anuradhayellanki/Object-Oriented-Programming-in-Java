@@ -1,13 +1,11 @@
 /**
- * 
+ * abstraction package created on 30-may-2022
  */
 package com.cashapona.oops.abstraction.may30;
-
 /**
- * @author USER
- *
+ * @author Anuradha
  */
-abstract class MyTest{
+abstract class Calculator{
 	/*
 	 * @params a,b of calculate() abstract method
 	 */
@@ -16,7 +14,7 @@ abstract class MyTest{
 /*
  * Addition class aquiring properties from MyTest abstract class
  */
-class Addition extends MyTest{
+class Addition extends Calculator{
 	/*
 	 * overirde calculate method with parameters a,b
 	 */
@@ -27,7 +25,7 @@ class Addition extends MyTest{
 /*
  * Subtraction class inherit properties from MyTest abstract class
  */
-class Subtraction extends MyTest{
+class Subtraction extends Calculator{
 	/*
 	 * overirde calculate method with parameters a,b
 	 */
@@ -38,7 +36,7 @@ class Subtraction extends MyTest{
 /*
  * Multiplication class aquiring properties from MyTest abstract class
  */
-class Multiplication extends MyTest{
+class Multiplication extends Calculator{
 	/*
 	 * overirde calculate method with parameters a,b
 	 */
@@ -52,7 +50,7 @@ public class AbstractionTest {
 	 */
 	public static void main(String[] args) {
 		/*
-		 * No need to create object for MyTest class because it is abstract class.
+		 * No need to create object for Calculator class because it is abstract class.
 		 * create objects for Addition , subtraction and multiplication classes.
 		 */
 		Addition add=new Addition();

@@ -1,11 +1,9 @@
 /**
- * 
+ * com.cashapona.oops.inheritance on 31-may-2022
  */
 package com.cashapona.oops.inheritance.may31;
-
 /**
- * @author USER
- *
+ * @author Anuradha
  */
 class Animal{
 	void eat() {

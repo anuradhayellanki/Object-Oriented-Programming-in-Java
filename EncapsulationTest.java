@@ -1,10 +1,9 @@
 /**
- * 
+ * com.cashapona.oops.encapsulation on 30-may-2022
  */
 package com.cashapona.oops.encapsulation.may30;
-
 /**
- * @author USER
+ * @author Anuradha
  */
 class UserMail{
 	private String  username;

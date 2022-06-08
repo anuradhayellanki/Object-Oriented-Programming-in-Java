@@ -1,6 +1,6 @@
 package com.cashapona.oops.inheritance.may31;
 /**
- * @author USER
+ * @author Anuradha
  * parent class Employee 
  * Every employee has a standard salary of Rs.50000. For a full-time employee, increment the salary by 50%, and increment the salary by 25% for an intern. After increasing the salary, display the incremented salary.
  */
